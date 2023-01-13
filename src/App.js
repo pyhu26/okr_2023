@@ -5,7 +5,8 @@ function App() {
   const [dday, setDday] = React.useState();
 
   const backStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/img/background.jpg'})`
+    // backgroundImage: `url(${process.env.PUBLIC_URL + '/img/background.jpg'})`
+    backgroundImage: `url(/img/background.jpg)`
     , width: '80vw'
     , height: '100vh'
     , backgroundRepeat: 'no-repeat'
