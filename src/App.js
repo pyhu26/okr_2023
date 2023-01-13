@@ -70,7 +70,7 @@ function App() {
 
   useEffect(()=>{
     setInterval(calcDday,1500);
-  },[]);
+  },[dday]);
 
   return (
     <div className="App">
