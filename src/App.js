@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useEffect } from 'react';
 
@@ -47,13 +46,7 @@ function App() {
     , height: '60px'
     , border: '1px solid none'
   }
-  const inputStyle = {
-    backgroundColor: `white`
-    , width: '600px'
-    , height: '60px'
-    , borderRadius: '30px'
-    , border: '1px solid none'
-  }
+  
   const linkStyle = {
     color: `white`
   }
