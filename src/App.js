@@ -52,9 +52,9 @@ function App() {
     color: `white`
   }
 
-  const target = new Date('2024-01-01');
   
   const calcDday = () => {
+    const target = new Date('2024-01-01');
     const today = new Date();
     const diff = target - today;
     
